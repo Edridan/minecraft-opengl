@@ -19,6 +19,8 @@
 //Moteur
 #include "engine/utils/types_3d.h"
 #include "engine/timer.h"
+#include "engine\sound\sound.h"
+#include "engine\sound\granular_sound.h"
 #include "engine/log/log_console.h"
 #include "engine/render/renderer.h"
 #include "engine/gui/screen.h"
@@ -56,6 +58,12 @@ GUILabel * LabelCam = NULL;
 GUIScreen * g_screen_params = NULL;
 GUIScreen * g_screen_jeu = NULL;
 GUISlider * g_slider;
+
+//Sons
+SoundEngine * g_sound_engine = NULL;
+SoundBasic * g_sound_ambiance;
+SoundBasic * g_sound_btn;
+SoundGrain * g_sound_grain;
 
 
 //////////////////////////////////////////////////////////////////////////
