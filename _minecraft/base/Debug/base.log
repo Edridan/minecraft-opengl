@@ -1,5 +1,64 @@
-﻿La génération a démarré 29/03/2015 23:48:43.
+﻿Build started 20/04/2015 10:22:54.
+     1>Project "C:\Users\axel.deshors\Documents\GitHub\minecraft-opengl\_minecraft\base\base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../src /I../src/external /I../../_engine/src /I../../_engine/src/external /I../../_engine/src/external/bullet/src /ZI /nologo /W3 /WX- /Od /Oy- /D LOG_FILE /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D TETLIBRARY /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\main.cpp
+         main.cpp
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_engine\src\engine\utils\ny_utils.h(25): warning C4005: 'NAN' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\math.h(106) : see previous definition of 'NAN'
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\chunk.h(111): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\chunk.h(114): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\chunk.h(117): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\chunk.h(194): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(320): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(535): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(537): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(540): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(542): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(545): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(547): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(638): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(639): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(640): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(641): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(653): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(654): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(655): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(656): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(668): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(669): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(670): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(671): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(683): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(684): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(685): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(686): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(698): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(699): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(700): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(701): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(713): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(714): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(715): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\world.h(716): warning C4244: 'argument' : conversion from 'const int' to 'float', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\avatar.h(172): warning C4101: 'zCube' : unreferenced local variable
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\avatar.h(172): warning C4101: 'yCube' : unreferenced local variable
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\avatar.h(172): warning C4101: 'xCube' : unreferenced local variable
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\main.cpp(140): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\main.cpp(252): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\axel.deshors\documents\github\minecraft-opengl\_minecraft\src\main.cpp(394): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\axel.deshors\Documents\GitHub\minecraft-opengl\_minecraft\Debug\base.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib /LIBPATH:../../_engine/lib libpng16.lib libcurl.lib openal32.lib alut_d.lib glew32.lib freeglut.lib Kernel32.lib Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\axel.deshors\Documents\GitHub\minecraft-opengl\_minecraft\Debug\base.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\axel.deshors\Documents\GitHub\minecraft-opengl\_minecraft\Debug\base.lib" /MACHINE:X86 /SAFESEH Debug\log.obj
+         Debug\renderer.obj
+         Debug\Cloud.obj
+         Debug\FreeFlyCam.obj
+         Debug\chunk.obj
+         Debug\main.obj
+         Debug\DayManager.obj
+         Debug\StarManager.obj
+         Debug\WeatherSystem.obj
+         base.vcxproj -> C:\Users\axel.deshors\Documents\GitHub\minecraft-opengl\_minecraft\Debug\base.exe
+     1>Done Building Project "C:\Users\axel.deshors\Documents\GitHub\minecraft-opengl\_minecraft\base\base.vcxproj" (Build target(s)).
 
-La génération a réussi.
+Build succeeded.
 
-Temps écoulé 00:00:00.02
+Time Elapsed 00:00:01.00
